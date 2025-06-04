@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Me - Moape Raibe Wara</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    nav {
+      background-color: #0056b3;
+      padding: 15px 20px;
+    }
+
+    nav a {
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: #0056b3;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-top: 25px;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    input[type="submit"] {
+      background-color: #0056b3;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #004494;
+    }
+
+    .contact-info p {
+      margin-bottom: 10px;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin-right: 15px;
+      color: #0056b3;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+
+    #backToTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #0056b3;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    #backToTop:hover {
+      background-color: #004494;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h1>Contact Me</h1>
+
+    <section id="contact-form">
+      <h2>Send a Message</h2>
+      <p>Use the form below to send me an email directly.</p>
+      <form action="mailto:moapewara5@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Send Email" />
+      </form>
+      <p style="font-size: 0.9em; color: #666; margin-top: 15px;">
+        *Note: Submitting this form will open your computer's default email program to send the message.
+      </p>
+    </section>
+
+    <section id="direct-contact-info">
+      <h2>Direct Contact Information</h2>
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:moapewara5@gmail.com">moapewara5@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+6797300106">+679 730 0106</a></p>
+      </div>
+    </section>
+
+    <section id="social-media">
+      <h2>Connect on Social Media</h2>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/moape-wara-a64489305" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://twitter.com/WilliamW73153" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="https://www.facebook.com/wara.moape" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </div>
+      <p style="font-size: 0.9em; color: #666; margin-top: 10px;">
+        *Links will open in a new tab.
+      </p>
+    </section>
+  </div>
+
+  <button id="backToTop" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+    Back to Top
+  </button>
+<!-- Footer Start -->
+<footer class="footer">
+  <p>&copy; 2025 <a href="index.html">Moape Raibe Wara</a>. All rights reserved.</p>
+</footer>
+
+<style>
+  .footer {
+    background-color: #0000FF; /* Blue background */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+</style>
+<!-- Footer End -->
+</body>
+</html>
